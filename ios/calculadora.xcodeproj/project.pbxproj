@@ -114,7 +114,6 @@
 				26FE70BE585B9729380C7B15 /* Pods-calculadora-calculadoraTests.debug.xcconfig */,
 				5F4AB011F4BC0C4857D1BA57 /* Pods-calculadora-calculadoraTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -485,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8AP592326;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = calculadora/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8AP592326;
 				INFOPLIST_FILE = calculadora/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

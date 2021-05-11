@@ -10,11 +10,11 @@ interface Props {
 }
 export const BotonCalc = ({ texto, color = "#2D2D2D", ancho = 80, accion }: Props) => {
     return (
-        <TouchableNativeFeedback onPress={() => accion(texto)}>
+        <TouchableOpacity onPress={() => accion(texto)}>
             <View style={[styles.boton, { backgroundColor: `${color}`, width: ancho }]}>
                 <Text style={styles.botonTexto}>{texto}</Text>
             </View>
-        </TouchableNativeFeedback>
+        </TouchableOpacity>
 
     );
 };
